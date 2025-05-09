@@ -18,6 +18,7 @@ func main() {
 			transaction = append(transaction, a)
 			fmt.Println(transaction)
 
+
 		}
 
 	}
