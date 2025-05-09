@@ -20,6 +20,7 @@ func main() {
 		} else {
 			transaction = append(transaction, a)
 
+
 		}
 
 	}
