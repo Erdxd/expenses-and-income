@@ -5,6 +5,22 @@ import (
 )
 
 func main() {
+	tr := make([]string, 0, 1)
+	fmt.Println(tr)
+	fmt.Println(len(tr), cap(tr))
+	tr = append(tr, "1")
+	fmt.Println(tr)
+	fmt.Println(len(tr), cap(tr))
+	tr = append(tr, "2")
+	fmt.Println(tr)
+	fmt.Println(len(tr), cap(tr))
+	tr = append(tr, "3")
+	fmt.Println(tr)
+	fmt.Println(len(tr), cap(tr))
+	tr = append(tr, "4")
+	fmt.Println(len(tr), cap(tr))
+	tr = append(tr, "5")
+	fmt.Println(len(tr), cap(tr))
 
 	a := 0.0
 	fmt.Println("введите транзакции (0 для выхода)")
@@ -19,7 +35,6 @@ func main() {
 
 		} else {
 			transaction = append(transaction, a)
-
 
 		}
 
